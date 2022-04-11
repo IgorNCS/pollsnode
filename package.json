@@ -19,6 +19,10 @@
   "homepage": "https://github.com/IgorNCS/pollsnode#readme",
   "devDependencies": {
     "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "eslint": "^8.13.0",
+    "eslint-plugin-no-loops": "^0.3.0",
     "git-commit-msg-linter": "^4.1.1",
     "typescript": "^4.6.3"
   }

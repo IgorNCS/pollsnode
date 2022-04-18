@@ -1,25 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1649766225859" clover="3.2.0">
-  <project timestamp="1649766225859" name="All files">
-    <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="19" coveredelements="19" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
-    <file name="signup.ts" path="C:\Users\igorn\Desktop\Estudo\Cursos\pollsNode\src\presentation\controllers\signup.ts">
-      <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="3" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="2" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-    </file>
+<coverage generated="1650284506328" clover="3.2.0">
+  <project timestamp="1650284506328" name="All files">
+    <metrics statements="34" coveredstatements="34" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="41" coveredelements="41" complexity="0" loc="34" ncloc="34" packages="3" files="3" classes="3"/>
+    <package name="controllers">
+      <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="signup.ts" path="C:\Users\igorn\Desktop\Estudo\Cursos\pollsNode\src\presentation\controllers\signup.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="errors">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="missing-param-error.ts" path="C:\Users\igorn\Desktop\Estudo\Cursos\pollsNode\src\presentation\errors\missing-param-error.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="helper">
+      <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="http-helper.ts" path="C:\Users\igorn\Desktop\Estudo\Cursos\pollsNode\src\presentation\helper\http-helper.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
